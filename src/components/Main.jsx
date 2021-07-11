@@ -9,7 +9,7 @@ function Main() {
 					<div className="nav_items__item"><a href="#" className="nav__silca">Моя страница</a></div>
 					<div className="nav_items__item"><a href="#" className="nav__silca">Новости</a></div>
 					<div className="nav_items__item"><a href="#" className="nav__silca">Сообщения</a></div>
-					<div className="nav_items__item"><a href="#" className="nav__silca">Настройки</a></div>
+					<div className="nav_items__item"><a href="#" className="nav__silca">Навигация</a></div>
 				</div>
 			</aside>
 			<div className="main__content">
