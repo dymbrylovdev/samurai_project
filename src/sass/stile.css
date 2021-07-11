@@ -98,8 +98,8 @@ h6 {
   overflow: hidden;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -113,11 +113,11 @@ h6 {
   display: grid;
   background-color: blueviolet;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
   -ms-grid-rows: 1fr;
   -ms-grid-columns: 200px 1fr;
-      grid-template: 1fr / 200px 1fr;
+  grid-template: 1fr / 200px 1fr;
 }
 
 .app-wrapper .wrapper .main .main__nav_items {
@@ -127,8 +127,4 @@ h6 {
 .app-wrapper .wrapper .main .content_img {
   min-width: 300px;
   height: 300px;
-}
-
-.app-wrapper .wrapper .footer {
-  background-color: chartreuse;
 }
