@@ -6,27 +6,27 @@ function Navigator() {
   return (
     <aside className={Module2.main__nav}>
       <div className={Module2.main__nav_items}>
-        <NavLink to="/profile">
+        <NavLink to="/profile" activeClassName={Module2.active}>
           <button type="submit" className={Module2.nav_items__item}>
             Профиль
           </button>
         </NavLink>
-        <NavLink to="/news">
+        <NavLink to="/news" activeClassName={Module2.active}>
           <button type="submit" className={Module2.nav_items__item}>
             Новости
           </button>
         </NavLink>
-        <NavLink to="/messages">
+        <NavLink to="/messages" activeClassName={Module2.active}>
           <button type="submit" className={Module2.nav_items__item}>
             Сообщения
           </button>
         </NavLink>
-        <NavLink to="/music">
+        <NavLink to="/music" activeClassName={Module2.active}>
           <button type="submit" className={Module2.nav_items__item}>
             Музыка
           </button>
         </NavLink>
-        <NavLink to="/settings">
+        <NavLink to="/settings" activeClassName={Module2.active}>
           <button type="submit" className={Module2.nav_items__item}>
             Настройки
           </button>

@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Module2 from "./Content.module.css";
 import Messages from "./Messages/Messages";
 import Music from "./Music/Music";
 import News from "./News/News";
@@ -11,11 +10,11 @@ function Content() {
   return (
     <Switch>
       <div>
-        <Route path="/profile" component={Profile} />
-        <Route exact path="/news" component={News} />
-        <Route path="/messages" component={Messages} />
-        <Route path="/music" component={Music} />
-        <Route path="/settings" component={Settings} />
+        <Route  path="/profile" component={Profile}/>
+        <Route  path="/news" component={News} />
+        <Route  path="/messages" component={Messages} />
+        <Route  path="/music" component={Music} />
+        <Route  path="/settings" component={Settings} />
       </div>
     </Switch>
   );

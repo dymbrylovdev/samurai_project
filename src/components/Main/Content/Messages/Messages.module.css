@@ -1,4 +1,14 @@
-.wrap_news{
-	background:rgb(48, 126, 65);
+.wrap_messanges{
 	min-height: 100vh;
+	display: grid;
+	grid-template-columns: 300px 1fr;
+	grid-template-rows: 1fr;
+	grid-gap: 10px;
+}
+
+.list_dialogs{
+
+}
+.list_messanges{
+	background-color: chartreuse;
 }

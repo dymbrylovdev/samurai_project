@@ -84,39 +84,35 @@
 	font-size: inherit;
 	font-weight: inherit;
  }
-
+ .main__nav {
+	grid-column:2/3;
+	min-height: 100vh;
+	background-color: #077443;
+	padding: 20px;
+ }
  
  .main__nav_items{
 	 display:flex;
 	 flex-direction: column;
  }
-.main__nav {
-	grid-column:2/3;
-	min-height: 100vh;
-	background-color: #aaaaaa;
-	padding: 20px;
+ .active{
+	background-color: #f5f5f5;
+    margin: 5px 0 5px 0;
  }
+
 .nav_items__item {
 	font-size: 20px;
 	padding: 4px 24px;
 	margin: 5px;
-	min-width: 100%;
+	min-width: 250px;
+    background-color: #d6d6d6;
+    color: rgb(3, 84, 92);
 	
  }
-.nav__silca {
-	color: black;
- }
+
 .nav_items__item:hover {
 	font-size: 20px;
 	padding: 4px 24px;
 	margin: 5px;
 	background-color: #d6d6d6;
- }
-.nav_items__item:hover .nav__silca {
-	color: black;
- }
- .nav_items__form{
-	 min-width: 100%;
-	 margin: 0 auto;
-
  }

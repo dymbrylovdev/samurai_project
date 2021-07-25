@@ -1,96 +1,10 @@
-* {
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
-:focus,
-:active {
-  outline: none;
-}
-
-a:focus,
-a:active {
-  outline: none;
-}
-
-nav,
-footer,
-header,
-aside {
-  display: block;
-}
-
-html,
-body {
-  height: 100%;
-  width: 100%;
-  font-size: 100%;
-  line-height: 1;
-  font-size: 14px;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
-
-input,
-button,
-textarea {
-  font-family: inherit;
-}
-
-input::-ms-clear {
-  display: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-button::-moz-focus-inner {
-  padding: 0;
-  border: 0;
-}
-
-a,
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-ul li {
-  list-style: none;
-}
-
-img {
-  vertical-align: top;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: inherit;
-  font-weight: inherit;
-}
-
 
 .header {
   display: grid;
-  grid-template: 1fr/1fr minmax(100px, auto) minmax(1000px, auto) 1fr;
+  grid-template: 1fr/1fr minmax(300px, auto) minmax(1000px, auto) 1fr;
+  
   height: 70px;
-  background-color: #03545c;
+  background-color: rgb(57, 137, 96);
   min-width: 500px;
 }
 .heder__menu {
@@ -112,19 +26,17 @@ h6 {
   color: white;
 }
  .logotip {
-  margin: 5px;
   grid-column: 2/3;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: white;
-  border: 2px solid black;
+  min-width: 100%;
+  display: flex;
   align-items: center;
+  justify-content: center;
+
 }
- .logotip_top {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  margin: 10px;
-  background-color: black;
+ .logotip_top img {
+    height: 60px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 3px solid black;
+
 }

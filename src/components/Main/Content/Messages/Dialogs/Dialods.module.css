@@ -1,0 +1,19 @@
+.dialogs{
+	padding: 10px;
+
+}
+.dialog__name:hover{
+	background-color: #fdc600;
+}
+
+.dialog__name{
+	min-width: 100%;
+	background-color: rgb(57, 137, 96);
+	border-top: 1px solid #d0d0d0;
+	border-right: 1px solid #d0d0d0;
+	border-left: 3px solid transparent;
+	transition: all .3s ease;
+	padding: 10px;
+	font-size: 20px;
+	color: #ffffff;
+}

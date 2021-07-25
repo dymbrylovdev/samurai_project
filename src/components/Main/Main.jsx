@@ -7,7 +7,7 @@ function Main() {
   return (
     <main className={Module2.main}>
       <Navigator />
-      <div className="main__content">
+      <div className="">
         <Content />
       </div>
     </main>
