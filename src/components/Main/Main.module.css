@@ -88,33 +88,17 @@ h6 {
 
 .main {
   display: grid;
-  background-color: rgb(245, 245, 245);
   flex: 1 1 auto;
   grid-template: 1fr/1fr minmax(300px, auto) minmax(1000px, auto) 1fr;
-}
-.main .main__nav {
-  grid-column: 2/3;
-  min-height: 100vh;
-  background-color: #aaaaaa;
-}
-.main .main__nav .nav_items__item {
-  font-size: 20px;
-  padding: 4px 24px;
-  margin: 5px;
-}
-.main .main__nav .nav_items__item .nav__silca {
-  color: black;
-}
-.main .main__nav .nav_items__item:hover {
-  font-size: 20px;
-  padding: 4px 24px;
-  margin: 5px;
-  background-color: #d6d6d6;
-}
-.main .main__nav .nav_items__item:hover .nav__silca {
-  color: black;
-}
-.main .main__content {
-  background-color: white;
+  max-width: 100%;
+  grid-gap: 20px;
 }
 
+
+.main__content {
+	display: grid;
+	grid-template:minmax(200px, auto) 1fr/ minmax(1100px, auto);
+	row-gap: 20px;
+	margin: 20px;
+	overflow: hidden;
+ }

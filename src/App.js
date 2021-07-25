@@ -1,15 +1,19 @@
 import logo from "./logo.svg";
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
+import Footer from "./components/Footer/Footer";
+import "./Stile_Css/App.css";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <div className="wrapper">
-      <Header />
-      <Main />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div className="wrapper">
+        <Header />
+        <Main />
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 
